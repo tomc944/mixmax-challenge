@@ -1,0 +1,28 @@
+{
+  "name": "mixmax-challenge",
+  "version": "1.0.0",
+  "description": "slash command for mixmax",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomc944/mixmax-challenge.git"
+  },
+  "author": "Thomas Claiborne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomc944/mixmax-challenge/issues"
+  },
+  "homepage": "https://github.com/tomc944/mixmax-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "request": "^2.78.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
