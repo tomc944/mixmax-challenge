@@ -4,7 +4,7 @@
   "description": "slash command for mixmax",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,7 @@
   "dependencies": {
     "cors": "^2.8.1",
     "express": "^4.14.0",
-    "request": "^2.78.0",
-    "underscore": "^1.8.3"
+    "request": "^2.78.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
